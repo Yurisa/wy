@@ -1,0 +1,73 @@
+.theDetailArea {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	background-color: #e8e5e5;
+	height: auto;
+}
+.area {
+	background-color: white;
+	padding-bottom: 10px;
+}
+.className {
+	font-size: larger;
+	/*margin: 1rem;*/
+	margin-left: 20px;
+	margin-top: 10px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	color: #FFC107;
+}
+#checkBtn,#DT-SignBtn,#DS-SignBtn{
+	width: 95px;
+	background-color: #fff;
+	border: 1px solid #FFC107;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	align-self: flex-end;
+	right: 20px;
+	margin: 10px;
+}
+.theInputArea {
+	flex-direction: column;
+}
+img {
+	width: 20px;
+	height: 20px;
+	margin-left: 30px;
+}
+.classroom {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5px;
+	margin-left: -16px;
+}
+.weeks {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5px;
+	margin-left: -16px;
+}
+.class-num {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5px;
+	margin-left: -16px;
+}
+.class-time {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5px;
+	margin-left: -16px;
+}
+.detail p {
+	margin-left: 10px;
+	margin-top:-5px;
+	color: grey;
+}
+.cells-students {
+	margin-top: 0;
+}

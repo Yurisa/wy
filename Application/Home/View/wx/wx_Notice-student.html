@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微语</title>
+	<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/weui.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/style-notice.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/style-top.css">
+</head>
+<body>
+	<div class="container">
+		<div class="top">
+			<div class="left"><a href=""><img src="__PUBLIC__/weixin/images/back.png" id="backIcon" onclick="goback()"></a></div> <!--返回按钮-->
+			<div class="title">历史通知</div>
+			<div class="right"></div>	
+		</div>
+		<div class="hold"></div>
+		<div id="notice">
+		<volist name="noticedata" id="value">
+			<table id="information">
+				<tr>
+					<td><div class="note"><h5>{$value.timer|date='Y-m-d H:i',###}</h5>
+					<p>{$value.content}</p>
+					</div></td>
+				</tr>
+			</table>
+		</volist>	
+		</div>
+	</div>
+	<script type="text/javascript">
+		function goback(){
+			history.go(-1);
+		}
+	</script>
+</body>
+</html>

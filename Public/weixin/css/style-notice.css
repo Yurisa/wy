@@ -1,0 +1,50 @@
+* {
+	font-weight: lighter;
+}
+.container {
+	display: -webkit-flex-box;
+}
+#back {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translate(0, -50%);
+}
+#back img {
+	height: 100%;
+	width: 100%;
+}
+#notice {
+	width: 95%;
+	margin: 0 auto;
+}
+#information {
+	width: 100%;
+}
+.note {
+	background: #ffc;
+	border-radius: 20px; 
+	box-shadow: 5px 5px 5px #ddd;
+}
+h5 {
+	padding: 10px;
+}
+p {
+	margin: 0 20px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+tr{
+	display: block;
+	margin-bottom: 50px;  
+}
+tr:nth-child(1) {
+	margin-top: 10px; 
+}
+h2 {
+	margin: 0 20px;
+	color: #bbb;
+}

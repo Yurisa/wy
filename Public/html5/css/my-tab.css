@@ -1,0 +1,36 @@
+#myTab2{
+    height:38px;
+    line-height:38px;
+    font-size:12px;
+    background: #fff;
+    border:none;
+}
+
+#myTab2 li{
+    width:33.33%;
+    height:100%;
+    float: left;
+
+}
+
+#myTab2 li a{
+    color:#363636;
+   width: 100%;
+    text-align: center;
+    height:38px;
+    line-height:38px;
+    margin:0;
+    padding:0;
+    background: none;
+    border:none;
+    border-bottom:2px solid #fff;
+}
+
+#myTab2 .width-25{
+    width:25%;
+}
+
+#myTab2 li.active a{
+    color:#d30775;
+    border-bottom:2px solid #d30775;
+}

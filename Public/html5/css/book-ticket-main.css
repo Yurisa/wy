@@ -1,0 +1,157 @@
+/*main����*/
+
+/*��һ���1,2��*/
+.first{
+	font-size:13px;
+	background-color:#fff;	
+	}
+.row1{ border-bottom:1px solid #ddd;}
+.xiangyou2{
+	background:url(../images/icon/xiangyou.png) no-repeat; 
+	height:16px; 
+	width:16px;
+	background-size:contain; 
+	float:right;
+	margin-top:12px;
+	}
+.f2{ 
+	height:40px; 
+	line-height:40px;
+	background-color:#fff;
+	border-top:1px solid #ddd;
+	}
+.f2:first-child{ border:none}
+
+
+.ico1{
+	background:url(../images/icon/book-ticket-icon5.png) no-repeat; 
+	height:20px; 
+	width:20px;
+	background-size:contain; 
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+	}
+.ico2{
+	background:url(../images/icon/book-ticket-icon6.png) no-repeat; 
+	height:20px; 
+	width:20px;
+	background-size:contain; 
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+	}
+
+.ico3{
+    background:url(../images/icon/self-icon8.png) no-repeat;
+    height:20px;
+    width:20px;
+    background-size:contain;
+    float:left;
+    margin-top:10px;
+    margin-right:10px;
+}
+.ico4{
+    background:url(../images/icon/self-icon11.png) no-repeat;
+    height:20px;
+    width:20px;
+    background-size:contain;
+    float:left;
+    margin-top:10px;
+    margin-right:10px;
+}
+/*��һ���3�� ��֤��԰ ������԰....*/
+.promise{
+	font-size:85%;
+	width:100%;
+	text-align:center;
+	padding:0;
+	-webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+	display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    margin: auto;
+	height:40px;
+	}
+.promise>div{
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+	height:18px;
+    line-height:18px;
+	margin-top:10px;
+	width:16px;
+	padding-left:15px;
+	background:url(../images/icon/book-ticket-icon1.png) no-repeat center left;
+	background-size:contain;
+	}
+@media screen and (min-width: 480px) {
+    .promise>div{
+       padding-left:15px;
+    }
+}
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 
+
+.xz-dialog-wrap{
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.xz-dialog{
+    width:90%;
+    height:50%;
+    left:5%;
+    top: 25%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.xz-dialog-header{
+    height:12%;
+    line-height: 2.8;
+    width: 100%;
+    padding:0 3%;
+    background: #f5f5f5;
+}
+
+.xz-dialog-header img{
+    width:25px;
+    height:25px;
+    margin-top:6px;
+    float: right;
+}
+
+.xz-dialog-cont{
+    margin-top: 1.5%;
+    width: 100%;
+    height:83%;
+    padding:3%;
+    overflow-y: scroll;
+}
+
+/*地图样式*/
+.ditu{
+    padding:10px;
+}
+
+.adxia{
+    background:url(../images/icon/xiangshang.png) no-repeat;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    background-size:contain;
+}

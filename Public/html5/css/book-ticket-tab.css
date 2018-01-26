@@ -1,0 +1,28 @@
+/*tabµ¼º½*/
+
+#myTab{ 
+	background-color:#fff; 
+	height:40px;
+	}
+#myTab li.active a{ 
+	background-color:#fff; 
+	color:#d30775; 
+	width:auto; 
+	border-bottom:2px solid #d30775;
+	}
+#myTab li{
+	padding:0; 
+	padding-left:30px; 
+	padding-right:10px; 
+	margin:0;
+	margin-top:8px;
+	}
+#myTab li a{
+	color:#363636; 
+	padding:0; 
+	padding-bottom:9px;
+	border:none;
+	border-bottom:2px solid #fff;
+	}
+	
+

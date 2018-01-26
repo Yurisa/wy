@@ -1,0 +1,53 @@
+﻿/*搜索容器*/
+.search-wrap{ 
+	padding-top:10px; 
+	padding-bottom:10px;
+	background-color:#f8f8f8; 
+	width:100%;
+	}
+/*搜索按钮*/
+.search-btn{ 
+	background-color:#f8f8f8; 
+	border-color:#f8f8f8;
+	color:#3e3e3e;
+	}
+/*搜索框*/
+.search-text{
+	padding-left:40px;
+	background:url(../images/icon/search.jpg) no-repeat;
+	background-position:12px 4px;
+	background-size:22px 22px;
+	background-color:#fff;
+	-webkit-border-radius:5px !important;
+	-moz-border-radius:5px !important;
+	-ms-border-radius:5px !important;
+	-o-border-radius:5px !important;
+	border-radius:5px !important;
+	border-color:#e8e8e8;
+	color:#aaa;
+	}
+#search-submit{ display:none}
+/*广告栏banner*/
+
+.banner-idot{ 
+	left:50%; 
+	width:55%;
+	bottom:0px;
+	}
+.banner-idot li{
+	border:none;
+	background:#5c5c5c;
+	width:10px; 
+	height:10px;
+	opacity:0.7;
+	margin:1px 4px;
+	filter:alpha(opacity:70);
+	}
+.banner-idot .active{ 
+	width:10px; 
+	height:10px;
+    margin:1px 4px;
+	opacity:1.0;
+	filter:alpha(opacity:100);
+	}
+

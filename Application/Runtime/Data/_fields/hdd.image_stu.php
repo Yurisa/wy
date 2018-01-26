@@ -1,0 +1,1 @@
+a:9:{i:0;s:4:"i_id";i:1;s:3:"src";i:2;s:4:"c_id";i:3;s:4:"s_id";i:4;s:4:"time";i:5;s:9:"condition";i:6;s:7:"nowweek";s:3:"_pk";s:4:"i_id";s:5:"_type";a:7:{s:4:"i_id";s:7:"int(11)";s:3:"src";s:12:"varchar(255)";s:4:"c_id";s:7:"int(11)";s:4:"s_id";s:7:"int(11)";s:4:"time";s:7:"int(11)";s:9:"condition";s:12:"varchar(255)";s:7:"nowweek";s:7:"int(11)";}}

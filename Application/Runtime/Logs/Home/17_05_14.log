@@ -1,0 +1,421 @@
+[ 2017-05-14T09:09:15+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=2065c81fa262435d544e8bfd0ae27fbb8c8a12a9&timestamp=1494724154&nonce=442077296&openid=okOWQ1YGnU7P-2z-ZeyWavyyWEtQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-05-14T09:09:16+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-05-14T09:09:16+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-05-14T09:09:38+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SELECT `t_id`,`name`,`pwd`,`xypwd` FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-14T09:09:39+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SELECT * FROM `preclass`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zhh_class_time` WHERE ( school_id=10000 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: stuclasslist /var/www/html/hdd/Application/Runtime/Cache/Home/8cf77d94a4a2e06151ea294cfdfa55a1.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-05-14T09:09:39+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=weeklycourse&nowweek=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SELECT * FROM `tc` WHERE ( t_id='1130299001' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='1' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='2' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='3' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='34' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='21' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `preclass` WHERE ( c_id='37' AND start_week<='12' AND '12'<=end_week ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-05-14T09:09:48+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-05-14T09:09:49+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=showcreateclass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-05-14T09:09:49+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SELECT * FROM `preclass`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zhh_class_time` WHERE ( school_id=10000 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: stuclasslist /var/www/html/hdd/Application/Runtime/Cache/Home/8cf77d94a4a2e06151ea294cfdfa55a1.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-05-14T09:09:59+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=showcreateclass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-05-14T09:10:07+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=t_coursedetail&c_id=37&nowweek=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='37' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `s_id` FROM `sc` WHERE ( c_id='37' )  [ RunTime:0.0002s ]
+SQL: SELECT `t_id` FROM `tc` WHERE ( c_id='37' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-05-14T09:10:14+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=checkin&c_id=37&nowweek=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: select * from student where s_id in(select s_id from sc where s_id not in(select s_id from image_stu where c_id='37' and nowweek='12') ); [ RunTime:0.0007s ]
+SQL: select student.s_id,student.s_name,image_stu.condition,image_stu.time,image_stu.src from student,image_stu where image_stu.c_id='37' and student.s_id=image_stu.s_id and nowweek ='12' and image_stu.condition like '待审核' [ RunTime:0.0003s ]
+SQL: select student.s_id,student.s_name,image_stu.condition,image_stu.time,image_stu.src from student,image_stu where image_stu.c_id='37' and student.s_id=image_stu.s_id and nowweek ='12' and image_stu.condition='已签到' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-05-14T09:10:17+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=t_coursedetail&c_id=37&nowweek=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='37' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `s_id` FROM `sc` WHERE ( c_id='37' )  [ RunTime:0.0002s ]
+SQL: SELECT `t_id` FROM `tc` WHERE ( c_id='37' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-14T09:10:24+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxteacher&a=checkin&c_id=37&nowweek=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: select * from student where s_id in(select s_id from sc where s_id not in(select s_id from image_stu where c_id='37' and nowweek='12') ); [ RunTime:0.0006s ]
+SQL: select student.s_id,student.s_name,image_stu.condition,image_stu.time,image_stu.src from student,image_stu where image_stu.c_id='37' and student.s_id=image_stu.s_id and nowweek ='12' and image_stu.condition like '待审核' [ RunTime:0.0002s ]
+SQL: select student.s_id,student.s_name,image_stu.condition,image_stu.time,image_stu.src from student,image_stu where image_stu.c_id='37' and student.s_id=image_stu.s_id and nowweek ='12' and image_stu.condition='已签到' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-05-14T12:58:13+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=66822c6f9a3919b41e3fd9c3810081835e849eb0&timestamp=1494737893&nonce=2093155015&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-14T12:58:42+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=c56f63a36bf4f9d5642c7a9e956f0c0910a52c9d&timestamp=1494737922&nonce=1126487721&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-05-14T12:58:52+08:00 ] 127.0.0.1 /hdd/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: nonce /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: timestamp /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: signature /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-05-14T13:00:36+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=4aa234ff7a546f9e1e75852ea6e56aef2f66308a&timestamp=1494738036&nonce=1219521198&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-05-14T13:01:35+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=4d767edeba367e560a59704d27375404436ed13d&timestamp=1494738095&nonce=988466273&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-05-14T13:02:50+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=a53e5cf5a548da996b2c02a487e3e225ecbe25d5&timestamp=1494738170&nonce=31042360&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-05-14T13:03:48+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=e1a7fb3d1748d8e5f7127613b83eea51500b7cf2&timestamp=1494738228&nonce=1935875918&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-05-14T13:05:04+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=35ecc30132a20e156387a3fa728f0753f5c7c422&timestamp=1494738304&nonce=687861643&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-05-14T13:05:21+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=47ec0184a49e76517f772f4db8e5eac38816e5d0&timestamp=1494738321&nonce=1912649927&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-05-14T13:06:02+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=5a5793a0285d0fd74280b8fa44cd201d226bfb46&timestamp=1494738362&nonce=1813268568&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-05-14T13:06:08+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=092166f224cb472b2c21a5ef1c43e1bed2958b65&timestamp=1494738368&nonce=1540216519&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+

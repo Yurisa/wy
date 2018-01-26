@@ -1,0 +1,355 @@
+/*������дҳ��*/
+a{ color:#363636}
+a:hover{ color:#363636}
+
+body{ background-color:#f8f8f8}
+
+/*topbar*/
+.topbar{
+	position:fixed; 
+	top:0;
+	display:inline-block;
+	height:40px; 
+	line-height:40px;
+	border-bottom:1px solid #ddd;
+	width:100%;
+	text-align:center;
+    z-index: 100000;
+	background-color:#fff;
+	}
+.xiangzuo{ 
+	background:url(../images/icon/xiangzuo2.png) no-repeat; 
+	width:12px; 
+	height:16px;
+	background-size:contain;
+	float:left;
+	margin-top:10px;
+	}
+	
+/*��������*/
+.bd{
+	border-bottom:1px solid #ddd;
+	background-color:#fff;
+	padding-top:7px;
+	padding-bottom:7px;
+	}
+
+.date>div{ 
+	display:inline-block;
+
+	}
+.date>div>a>div{
+	padding-left:10px; 
+	padding-right:10px;
+	text-align:center;
+	
+	}
+.date{ float:right}
+.d1{
+	float:left;
+	font-size:100%;
+    line-height:25px;
+	}
+.d2{ color:#666}
+.d3,.d4{ color:#d30775}
+.d4{
+    line-height: 25px;  ;
+	padding-right:20px !important;
+	background:url(../images/icon/xiangyou2.png) no-repeat center right;
+	background-size:8px 15px;
+    margin-right: 7px;
+	}
+	
+/*Ʊ�����͡���������԰��֪*/	
+
+	/*Ʊ������*/
+.group{ 
+	background-color:#f8f8f8; 
+	margin-top:10px; 
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;	
+	text-align:center;
+	}
+
+.group>div{
+	background: #fff;
+}
+
+.ticket-kind{ 
+	padding-top:8px;
+	border-bottom:1px solid #ddd;
+	padding-bottom:8px;
+	}
+.left{ float:left;}
+.l1{
+    font-size:16px;
+    font-weight: bold;
+    line-height:40px;
+}
+.l2{ 
+	font-size:85%; 
+	background-color:#06F; 
+	color:#fff; 
+	padding:3px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px; 
+	}
+.right{ float:right;}
+.r1,.r2{
+	color:#d30775;
+	text-align:right;
+	}
+.r2{
+	font-size:85%; 
+	margin-top:3px;
+	}
+
+.m-all-0{
+    margin:0;
+    padding:0;
+}
+
+.width-80{
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left:-40px;
+}
+
+.width-80 del{
+    color: #999;
+    font-weight: normal;
+}
+	
+	/*����*/
+	
+.number-wrap{ 
+	padding-top:15px; 
+	padding-bottom:15px;
+	border-bottom:1px solid #ddd;
+	font-size:115%;
+	}
+.number>div{ float:right}
+.num{ 
+	height:18px;
+	width:40px;
+	background:#d30775;
+	color:#fff;
+	}
+.jian,.jia{
+	width:18px;
+	height:18px;
+	line-height:18px;
+	}
+.jian{
+	border:1px solid #ccc;
+	color:#ccc;
+	border-right:none;
+	}
+.jia{
+	border:1px solid #d30775;
+	color:#d30775;
+	border-left:none;
+	}
+	
+	/*��԰��֪*/
+.remark{ 
+	height:52px;
+	line-height:52px;
+	}
+.xiangyou{ 
+	background:url(../images/icon/xiangyou.png) no-repeat; 
+	height:16px; 
+	width:16px;
+	background-size:contain; 
+	float:right;
+	margin-top:18px;
+	}
+/*��Ӹ�����Ʊ*/
+.add-icon{ 
+	float:left; 
+	font-size:200%;
+	margin-right:5px;
+	color:#d30775;
+	}
+.add-ticket{ 
+	height:52px; 
+	line-height:52px;
+	}
+/*ȡƱ����Ϣ*/
+.user-info{ 
+	height:42px;
+	line-height:42px;
+	border-bottom:1px solid #ddd;
+	}
+.user-icon{ 
+	background:url(../images/icon/xiangshang.png) no-repeat; 
+	height:12px; 
+	width:12px;
+	background-size:contain; 
+	float:right;
+	margin-top:14px;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	}
+/*����*/
+.input{ 
+	height:42px;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+}
+.input:last-child{ border:none;} 
+.input>div:first-child{ width:20%} 
+.input>div:last-child{ padding:3px;}
+.input>div:first-child{ 
+	float:left; 
+	margin-top:12px;
+	}
+.input>div:last-child{ 
+	float:left; 
+	margin-top:8px;
+	width:80%;
+	}
+.input input{
+	width:100%;
+	border:none;
+	outline:none;
+	}
+/*�ύ����*/
+.info{ }
+.btm{
+	opacity:0.9;
+	filter:alpha(opacity:90); 
+	position:fixed;
+	bottom:0px;
+	}
+.price{ 
+	width:60%;
+	background-color:#363636;
+	color:#fff; 
+	height:53px;
+	line-height:53px;
+	float:left;
+	text-align:center;
+	}
+.sub{
+	width:40%;
+	float:left;
+    height:53px;
+	line-height:53px;
+	text-align:center;
+	}
+.sub input{ 
+	width:100%; 
+	height:53px;
+    border-radius: 0;
+	background-color:#d30775;
+	border:none;
+	color:#fff;
+	}
+
+.fr{
+    float: right;
+}
+
+.width-25{
+    width:25%;
+}
+
+
+.blue{
+    color:#00a4ff;
+}
+
+
+.mt-2{
+    padding-top:1px;
+}
+
+
+.agree{
+    margin-top:10px;
+    margin-bottom:80px;
+    font-size:13px;
+    line-height:25px;
+    height:25px;
+    padding-left:15px;
+    text-align: left;
+}
+
+.agree img{
+    height:13px;
+    width:13px;
+    margin-right:3px;
+    margin-top:-3px;
+}
+
+.xz-dialog-wrap{
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.xz-dialog{
+    width:90%;
+    height:50%;
+    left:5%;
+    top: 25%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.xz-dialog-header{
+    height:12%;
+    line-height: 2.8;
+    width: 100%;
+    padding:0 3%;
+    background: #f5f5f5;
+}
+
+.xz-dialog-header img{
+    width:25px;
+    height:25px;
+    margin-top:6px;
+    float: right;
+}
+
+.xz-dialog-cont{
+    margin-top: 1.5%;
+    width: 100%;
+    height:83%;
+    padding:3%;
+    overflow-y: scroll;
+}
+
+/*地图样式*/
+.ditu{
+    padding:10px;
+}
+
+.adxia{
+    background:url(../images/icon/xiangshang.png) no-repeat;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    background-size:contain;
+}
+
+

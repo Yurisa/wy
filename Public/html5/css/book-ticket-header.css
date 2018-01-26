@@ -1,0 +1,33 @@
+﻿body{ 
+	background-color:#f8f8f8;
+	color:#5c5c5c; 
+	font-family:'微软雅黑'; 
+	font-family:'Microsoft YaHei'
+	}
+a{color:#5c5c5c; }
+a:hover{ color:#5c5c5c; }
+/*头部*/
+.header{
+
+
+	}
+.xiangzuo{
+	position:absolute;
+	background:url(../images/icon/xiangzuo.png) no-repeat; 
+	height:16px; 
+	width:16px;
+	background-size:contain;
+	top:10px;
+}
+.title{
+	font-size:125%;
+	position:absolute;
+	top:20%;
+	color:#fff;
+}
+.num2{
+	position:absolute;
+	top:23%;
+	color:#fff;
+	right:0;
+}

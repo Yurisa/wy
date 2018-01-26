@@ -1,0 +1,52 @@
+﻿/*Tab中的景加酒店*/
+.r{ 
+	position:relative;
+	}
+.group-wrap{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ddd;
+	}
+
+/*左边*/
+.r-kind{ 
+	position:absolute; 
+	top:0; 
+	background-color:#000000; 
+	color:#fff;
+	filter:alpha(opacity:70);
+	opacity:0.7;
+	padding:0 3px 0 3px;
+	}
+.r-left{ 
+	width:30%; 
+	position:relative;
+	float:left;
+	}
+/*右边*/
+.r-right{ 
+	width:67%; 
+	float:left; 
+	margin-left:3%;
+	position:relative;
+	}
+.r-title{
+	margin-left:33%;
+	height:40px;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	}
+.gold{ 
+	border:1px solid #ff740d; 
+	color:#ff740d;
+	padding-left:4px; 
+	padding-right:4px;
+	width:38px;
+	height:22px;
+	position:absolute;
+	bottom:0;
+	left:35%;
+	}
+
+.p1{ color:#d30775}
+.p2{ color:#d30775; font-size:115%;}

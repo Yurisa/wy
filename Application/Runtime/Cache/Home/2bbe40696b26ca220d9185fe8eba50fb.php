@@ -1,0 +1,465 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微语</title>
+	<meta name="viewport" content="width = device-width, user-scalable = no, initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="/hdd/Public/weixin/css/style-courses.css">
+	<link rel="stylesheet" type="text/css" href="/hdd/Public/weixin/css/weui.css">
+	
+	<link rel="stylesheet" type="text/css" href="/hdd/Public/weixin/css/btn-style.css">
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="box top">
+			<div class="case"></div>
+			<div class="case">
+				<form action="#"  method="post" name="formTerm">
+				
+					第
+					<select name="nowweek" form="formWeek" class="nowweek" id="nowweek">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+
+					</select>
+					周
+				
+				</form>
+			</div>
+			<div class="box case"><a href="?c=Wxstudent&a=s_addtclass&s_id=<?php echo ($s_id); ?>"><img src="/hdd/Public/weixin/images/add.png" id="addIcon"></a></div>	<!--增加图标-->
+		</div>
+		<div class="hold"></div>
+
+		<div class="box theTableArea">
+			<div class="box t_n">
+				<span id="month">月<br/>份</span>
+				<div class="hold1"></div>
+				<div class="dd" id="dd">
+					<table cellpadding="0" cellspacing="0" border="0" class="t_number">
+						<tbody>
+							<tr><td></td></tr>
+							<tr><td>1<p id="class1"><?php echo ($classtime["time1"]); ?></p></td></tr>
+							<tr><td>2<p id="class2"><?php echo ($classtime["time2"]); ?></p></td></tr>
+							<tr><td>3<p id="class3"><?php echo ($classtime["time3"]); ?></p></td></tr>
+							<tr><td>4<p id="class4"><?php echo ($classtime["time4"]); ?></p></td></tr>
+							<tr><td>5<p id="class5"><?php echo ($classtime["time5"]); ?></p></td></tr>
+							<tr><td>6<p id="class6"><?php echo ($classtime["time6"]); ?></p></td></tr>
+							<tr><td>7<p id="class7"><?php echo ($classtime["time7"]); ?></p></td></tr>
+							<tr><td>8<p id="class8"><?php echo ($classtime["time8"]); ?></p></td></tr>
+							<tr><td>9<p id="class9"><?php echo ($classtime["time9"]); ?></p></td></tr>
+							<tr><td>10<p id="class10"><?php echo ($classtime["time10"]); ?></p></td></tr>
+							<tr><td>11<p id="class11"><?php echo ($classtime["time11"]); ?></p></td></tr>
+							<tr><td>12<p id="class12"><?php echo ($classtime["time12"]); ?></p></td></tr>
+						</tbody>
+					</table>
+				</div>	
+			</div>				<!--left-->
+
+			<div class="box t_i">
+				<div class="t_i_h" id="hh">
+
+					<div class="ee">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tbody>
+								<tr>
+									<td>周一</td>
+									<td>周二</td>
+									<td>周三</td>
+									<td>周四</td>
+									<td>周五</td>
+									<td>周六</td>
+									<td>周日</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="hold"></div>
+				</div>
+				<div class="cc" id="cc" onscroll="aa()" id="contentTable">
+					<table cellpadding="0" cellspacing="0" border="0" >
+						<tbody id="content">
+							<tr id="row1">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row2">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row3">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row4">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row5">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row6">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row7">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row8">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row9">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row10">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row11">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row12">
+								<td name="column1"></td>
+								<td name="column2"></td>
+								<td name="column3"></td>
+								<td name="column4"></td>
+								<td name="column5"></td>
+								<td name="column6"></td>
+								<td name="column7"></td>
+							</tr>
+							<tr id="row13">
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>  
+			</div>				 <!--right-->
+		</div>
+	</div>
+  <!-- <?php if(is_array($stuclasslist)): $i = 0; $__LIST__ = $stuclasslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($i % 2 );++$i;?><script type="text/javascript">
+	   var week = parseInt("<?php echo ($value["week"]); ?>");
+	   var start_jie = parseInt("<?php echo ($value["start_jie"]); ?>");
+	   var end_jie =parseInt("<?php echo ($value["end_jie"]); ?>");
+	   var c_id = parseInt("<?php echo ($value["c_id"]); ?>");
+	   // alert (start_jie+end_jie+1);
+	   var column = document.getElementsByName('column'+week);
+	   column[start_jie-1].setAttribute("rowspan",(end_jie-start_jie+1)+"");
+	   column[start_jie-1].innerHTML = "<?php echo ($value["name"]); ?>"+"<br>"+"<?php echo ($value["place"]); ?>";
+	   // alert(c_id);
+	   var randomColor = new Array("#7c96c4","#ca7129","#ba4138","#467448","#8d5128");
+	   var randomNum = parseInt(Math.random()*5);
+	   alert(randomNum);
+	   column[start_jie-1].style.backgroundColor = randomColor[randomNum];
+	   column[start_jie-1].onclick = function(){
+	   	window.location.href = '?c=Wxstudent&a=s_coursedetail&id=<?php echo ($value["c_id"]); ?>';
+	   }
+	   // var parent=column[start_jie].parentNode;
+	   // parent.removeChild(parent.childNodes[week]);
+		for(var i=start_jie+1;i<end_jie+1;i++){
+		    // alert(week);
+	      var row = document.getElementById('row'+i);
+		  var x = row.childNodes;
+	      // alert(x.length);
+		  row.childNodes[2*week-1].style.display="none";
+		  // document.write("删除的内容："+x.innerHTML+"<br>");
+		}
+
+        
+		// var content = document.getElementById('content')
+		// content.removeChild(content.childNodes[3]);
+	</script><?php endforeach; endif; else: echo "" ;endif; ?> -->
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$.ajax({ 
+            type: "GET",    
+            url: "http://php.shuochuang.net/hdd/index.php?c=Wxstudent&a=weeklycourse&nowweek="+$(".nowweek").val(),
+            dataType: "json",
+            success: function(data) {
+
+            	// alert(data.list);
+            $.each(data.list,function(index,item){
+               var nowweek = $(".nowweek").val();
+               // alert(nowweek);
+               
+               var week = parseInt(item.week);
+               // alert(item.c_id);
+			   var start_jie = parseInt(item.start_jie);
+			   var end_jie =parseInt(item.end_jie);
+			   var c_id = parseInt(item.c_id);
+			   var start_week = parseInt(item.start_week);
+			   var end_week = parseInt(item.end_week);
+			   // alert(start_week);
+			   // alert (start_jie+end_jie+1);
+			   
+			   	// alert(1);
+			   var column = document.getElementsByName('column'+week);
+			   column[start_jie-1].setAttribute("rowspan",(end_jie-start_jie+1)+"");
+			   column[start_jie-1].innerHTML = item.name+"<br>"+item.place;
+			   // alert(c_id);
+			   var randomColor = new Array("#7c96c4","#ca7129","#ba4138","#467448","#8d5128");
+			   var randomNum = parseInt(Math.random()*5);
+			   // alert(randomNum);
+			   column[start_jie-1].style.backgroundColor = randomColor[randomNum];
+			   column[start_jie-1].onclick = function(){
+			   	window.location.href = "?c=index&a=s_coursedetail&c_id="+c_id+"&nowweek="+nowweek;
+
+			   }
+			   // var parent=column[start_jie].parentNode;
+			   // parent.removeChild(parent.childNodes[week]);
+				for(var i=start_jie+1;i<end_jie+1;i++){
+				    // alert(week);
+			      var row = document.getElementById('row'+i);
+				  var x = row.childNodes;
+			      // alert(x.length);
+				  row.childNodes[2*week-1].style.display="none";
+				  // document.write("删除的内容："+x.innerHTML+"<br>");
+				}
+          
+		    
+
+		    
+				// var content = document.getElementById('content')
+				// content.removeChild(content.childNodes[3]);
+		         
+		      });      
+		            
+            },
+             // error: function(jqXHR){     
+             //    alert("发生错误：" + jqXHR.status);  
+             // },     
+        });
+		// $('.nowweek').val(1);
+		// $(".nowweek").trigger('change');
+		$('.nowweek').change(function(){
+			var a =	$("#content").find("td");
+            for (i=0;i<a.length; i++) {
+            	$(a[i]).text("");
+            	$(a[i]).css("background-color","rgba(255,255,255,0)");
+            }
+            $.ajax({ 
+            type: "GET",    
+            url: "http://php.shuochuang.net/hdd/index.php?c=Wxstudent&a=weeklycourse&nowweek="+$(".nowweek").val(),
+            dataType: "json",
+            success: function(data) {
+            	// alert(data.list);
+            $.each(data.list,function(index,item){
+               var nowweek = $(".nowweek").val();
+               // alert(nowweek);
+               
+               var week = parseInt(item.week);
+               // alert(item.c_id);
+			   var start_jie = parseInt(item.start_jie);
+			   var end_jie =parseInt(item.end_jie);
+			   var c_id = parseInt(item.c_id);
+			   var start_week = parseInt(item.start_week);
+			   var end_week = parseInt(item.end_week);
+			   // alert(start_week);
+			   // alert (start_jie+end_jie+1);
+			   
+			   	// alert(1);
+			   var column = document.getElementsByName('column'+week);
+			   column[start_jie-1].setAttribute("rowspan",(end_jie-start_jie+1)+"");
+			   column[start_jie-1].innerHTML = item.name+"<br>"+item.place;
+			   // alert(c_id);
+			   var randomColor = new Array("#7c96c4","#ca7129","#ba4138","#467448","#8d5128");
+			   var randomNum = parseInt(Math.random()*5);
+			   // alert(randomNum);
+			   column[start_jie-1].style.backgroundColor = randomColor[randomNum];
+			   column[start_jie-1].onclick = function(){
+			   	window.location.href = "?c=index&a=s_coursedetail&c_id="+c_id+"&nowweek="+nowweek;
+
+			   }
+			   // var parent=column[start_jie].parentNode;
+			   // parent.removeChild(parent.childNodes[week]);
+				for(var i=start_jie+1;i<end_jie+1;i++){
+				    // alert(week);
+			      var row = document.getElementById('row'+i);
+				  var x = row.childNodes;
+			      // alert(x.length);
+				  row.childNodes[2*week-1].style.display="none";
+				  // document.write("删除的内容："+x.innerHTML+"<br>");
+				}
+          
+		    
+
+		    
+				// var content = document.getElementById('content')
+				// content.removeChild(content.childNodes[3]);
+		         
+		      });      
+		            
+            },
+             // error: function(jqXHR){     
+             //    alert("发生错误：" + jqXHR.status);  
+             // },     
+        });
+   });
+	})
+
+var getweek = theWeek()-getWeekNumber(2017,02,19)+1;
+document.getElementById("nowweek")[getweek-1].selected=true;
+
+
+/**
+   * 判断年份是否为润年
+   *
+   * @param {Number} year
+   */
+ function isLeapYear(year) {
+     return (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
+ }
+  /**
+  * 获取某一年份的某一月份的天数
+  *
+  * @param {Number} year
+  * @param {Number} month
+  */
+ function getMonthDays(year, month) {
+     return [31, null, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month] || (isLeapYear(year) ? 29 : 28);
+ }
+  function theWeek() {
+    var totalDays = 0;
+    now = new Date();
+    years = now.getYear()
+    if (years < 1000)
+        years += 1900
+    var days = new Array(12);
+    days[0] = 31;
+    days[2] = 31;
+    days[3] = 30;
+    days[4] = 31;
+    days[5] = 30;
+    days[6] = 31;
+    days[7] = 31;
+    days[8] = 30;
+    days[9] = 31;
+    days[10] = 30;
+    days[11] = 31;
+     
+    //判断是否为闰年，针对2月的天数进行计算
+    if (Math.round(now.getYear() / 4) == now.getYear() / 4) {
+        days[1] = 29
+    } else {
+        days[1] = 28
+    }
+ 
+    if (now.getMonth() == 0) {
+        totalDays = totalDays + now.getDate();
+    } else {
+        var curMonth = now.getMonth();
+        for (var count = 1; count <= curMonth; count++) {
+            totalDays = totalDays + days[count - 1];
+        }
+        totalDays = totalDays + now.getDate();
+    }
+    //得到第几周
+    var week = Math.round(totalDays / 7);
+    return week;
+}
+
+
+function getWeekNumber(y, m, d) {
+     var now = new Date(y, m - 1, d),
+         year = now.getFullYear(),
+         month = now.getMonth(),
+         days = now.getDate();
+     //那一天是那一年中的第多少天
+     for (var i = 0; i < month; i++) {
+         days += getMonthDays(year, i);
+     }
+ 
+     //那一年第一天是星期几
+     var yearFirstDay = new Date(year, 0, 1).getDay() || 7;
+ 
+     var week = null;
+     if (yearFirstDay == 1) {
+         week = Math.ceil(days / yearFirstDay);
+     } else {
+         days -= (7 - yearFirstDay + 1);
+         week = Math.ceil(days / 7) + 1;
+     }
+ 
+     return week;
+ }
+</script> 
+</body>
+</html>

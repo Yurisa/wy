@@ -1,0 +1,1388 @@
+[ 2017-05-08T17:11:05+08:00 ] 127.0.0.1 /hdd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: nonce /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: timestamp /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: signature /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 146 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-05-08T17:11:14+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sc` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0003s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-05-08T17:12:35+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-05-08T17:12:35+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 278 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-05-08T17:13:39+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=s_coursedetail&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tc` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `s_id` FROM `sc` WHERE ( c_id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT `t_id` FROM `tc` WHERE ( c_id='3' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-08T17:13:42+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=checknotice&c_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `notice` WHERE ( c_id='3' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-08T17:14:55+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-05-08T17:14:56+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-05-08T17:14:56+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-05-08T17:14:57+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 275 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='Array' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 279 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='Array' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-05-08T17:18:05+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0004s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-05-08T17:19:38+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 277 行.
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-05-08T17:19:43+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 284 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 294 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-05-08T17:22:38+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-05-08T17:23:36+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-05-08T17:24:52+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-05-08T17:24:57+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-05-08T17:29:45+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 285 行.
+SQL: SELECT * FROM `class` WHERE ( c_id='Array' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 296 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-05-08T17:29:50+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='14' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='14' AND week='1' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 298 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-05-08T17:32:41+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-05-08T17:33:13+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-05-08T17:34:46+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-05-08T17:35:20+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-05-08T17:37:35+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-05-08T17:38:22+08:00 ] 127.0.0.1 /hdd/index.php?c=index&a=sendMsgAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SELECT `s_id` FROM `student`  [ RunTime:0.0003s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299002' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='6' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299003' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299004' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299004' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `student` WHERE ( s_id='1150299005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299005' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' AND week='1' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-05-08T18:12:18+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=c692e86e74903f018519bf34d5191945aa7e90e4&timestamp=1494238338&nonce=2043657275&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-05-08T18:27:13+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-05-08T18:27:13+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-05-08T18:27:16+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-05-08T18:27:17+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-05-08T18:27:17+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-08T19:07:12+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=f1f503d9ff65d2836944aadeb27f6a11292c7ec6&timestamp=1494241632&nonce=1616508342&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-05-08T19:07:17+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-05-08T19:07:17+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-05-08T19:07:42+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-08T19:07:46+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=3ecf3ddf57b5e90ae2b1eac30f43dc67a2a4b98f&timestamp=1494241666&nonce=1558715399&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-05-08T19:07:46+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-05-08T19:07:46+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-05-08T19:08:12+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SELECT `s_id`,`s_name`,`s_pwd`,`s_xypwd` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-08T19:08:13+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-05-08T19:08:19+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=s_coursedetail&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_id` FROM `sc` WHERE ( c_id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT `t_id` FROM `tc` WHERE ( c_id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299002' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299003' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-05-08T19:08:26+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=s_coursedetail&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_id` FROM `sc` WHERE ( c_id='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `t_id` FROM `tc` WHERE ( c_id='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` WHERE ( t_id='1130299001' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-05-08T19:18:48+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-05-08T19:42:44+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=0b34239a8b8cb12b3e079150243859cd6259a6cd&timestamp=1494243764&nonce=2023505776&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-05-08T19:42:47+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-05-08T19:42:48+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-05-08T19:43:21+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-05-08T19:43:34+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-05-08T19:43:43+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify&s=0.9899801241949009
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-05-08T19:43:59+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SELECT `s_id`,`s_name`,`s_pwd`,`s_xypwd` FROM `student` WHERE ( s_id='1150299001' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-08T19:44:00+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxstudent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SELECT * FROM `sc` WHERE ( s_id='1150299001' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` WHERE ( c_id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-05-08T19:56:34+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-05-08T20:33:11+08:00 ] 127.0.0.1 /hdd/index.php?c=index&signature=f5da188a05fcf78bd13439841b04e2a5ae974d1c&timestamp=1494246791&nonce=920806091&openid=okOWQ1Xgv2lPrYh0JlgukjHPk0sk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: echostr /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: file /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: content /var/www/html/hdd/Application/Home/Controller/IndexController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-05-08T20:33:12+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-05-08T20:33:12+08:00 ] 127.0.0.1 /hdd/index.php?c=Wxreg&a=Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+

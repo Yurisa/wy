@@ -1,0 +1,60 @@
+.container {
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+.hold {
+	height: 50px;
+	width: 100%;
+}
+.box {
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#SignDate {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5px;
+}
+#signStatus img {
+	margin: 0;
+}
+table {
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #fff;
+	border: 1px solid #e7e4e4;
+
+}
+table tr td {
+	padding: 5px 0px;
+}
+.name {
+	width: 50px;
+	font-size: 16px;
+	padding-left: 5px;
+}
+.case {
+	border-bottom: 5px solid #607D8B;
+}
+#pic img {
+	height: 200px;
+	outline-width:0px;  
+  	vertical-align:top;  
+	width: 100%;
+	margin: 0;
+}
+.box1 {
+	border-bottom: 5px solid #607D8B;
+	text-align: center;
+}
+#checkBtn {
+	height: 20px;
+	width: 20px;
+}
+.btn-primary {
+	background-color: #2196F3;
+	width: 85%;
+	border-radius: 20px; 
+	outline:0px; -webkit-appearance:none; 
+}

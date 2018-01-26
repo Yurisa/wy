@@ -1,0 +1,257 @@
+/*
+* @Author: Marte
+* @Date:   2017-04-27 23:30:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-09 17:04:48
+*/
+#container_2{
+    position: relative;
+    text-align:center;
+    overflow:scroll;
+}
+#container_2 img{
+    width: 25px;
+    height: 25px;
+    margin-top:5px;
+}
+#title{
+    width:90%;
+    background:#FFFFFF;
+    margin:0 auto;
+    margin-top:15px;
+    border-collapse:collapse;
+}
+#title tr td:nth-child(1){
+    border-bottom: 1px solid;
+    width:25px;
+    height:25px;
+    padding:0px;
+}
+#title tr td:nth-child(2){
+    border-bottom: 1px solid;
+    height:25px;
+    padding:0px;
+}
+#title input{
+    border:none;
+    width:100%;
+    height:100%;
+    font-size:15px;
+}
+.ClassTable input{
+    border:none;
+    width:100%;
+    height:100%;
+    font-size:15px;
+}
+.ClassTable{
+    width:80%;
+    border-collapse:collapse;
+    background:#FFFFFF;
+    margin:20px auto;
+}
+.ClassTable td{
+    border: 1px solid black;
+    height:25px;
+}
+.tr_1 td:nth-child(1){
+    border-bottom: none;
+    font-size:16px;
+    width:10%;
+}
+.tr_1 td:nth-child(2){
+    border-right: none;
+}
+.tr_1 td:nth-child(3){
+    border-left: none;
+}
+.tr_2 td:nth-child(1){
+    border-right: none;
+}
+.tr_2 td:nth-child(2){
+    border-left: none;
+}
+.tr_3 td:nth-child(1){
+    border-top: none;
+    width:10%;
+}
+.tr_3 td:nth-child(2){
+    border-right: none;
+}
+.tr_3 td:nth-child(3){
+    border-left: none;
+}
+
+#submit_1{
+    width:100%;
+}
+#blackBg{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 2;
+    display:none;
+}
+#addTime{
+    position:absolute;
+    z-index:3;
+    background:#FFFFFF;
+    display:none;
+    width:85%;
+    height:250px;
+    font-size:13.5px;
+}
+#addTime_top{
+    width:100%;
+    height:30px;
+    background:#F9F9F9;
+    text-align:left;
+    line-height:30px;
+    border-top:1px solid #FBCD21;
+    border-bottom:1px solid #FBCD21;
+}
+#addTime_content{
+    display: -webkit-flex;
+    width:100%;
+    height:180px;
+    margin-top:0px;
+    overflow:hidden;
+}
+.addTime_contentDiv{
+    flex:1;
+    border-right:1px solid #FBCD21;
+    overflow:scroll;
+    height:178px;
+}
+#addTime_contentDiv1{
+    border-left:1px solid #FBCD21;
+    border-bottom:1px solid #FBCD21;
+}
+#addTime_contentDiv2{
+    border-bottom:1px solid #FBCD21;
+}
+#addTime_contentDiv3{
+    border-bottom:1px solid #FBCD21;
+}
+.addTime_contentDiv::-webkit-scrollbar {display:none}
+.weui-cell__bd p{
+    font-size:13.5px;
+}
+#addTime_bottom{
+    width:100%;
+    height:40px;
+    display: -webkit-flex;
+}
+#addTime_bottom div{
+    flex:1;
+    height:38px;
+    text-align:center;
+    line-height:40px;
+    border-bottom:3px solid #FBCD21;
+}
+#addTime_bottom div:nth-child(1){
+    border-right:1px solid #FBCD21;
+}
+#addWeek{
+    position:absolute;
+    z-index:3;
+    background:#FFFFFF;
+    display:none;
+    width:85%;
+    height:280px;
+    font-size:13.5px;
+}
+#addWeek_top{
+    width:100%;
+    height:20px;
+    background:#F9F9F9;
+    text-align:left;
+    line-height:20px;
+}
+#addWeek_banner{
+    display:-webkit-flex;
+    width:100%;
+    height:40px;
+    margin-top:0px;
+}
+#addWeek_banner1{
+    border-right:1px solid #E5E5E5;
+}
+#addWeek_banner2{
+    border-right:1px solid #E5E5E5;
+}
+.addWeek_banner{
+    flex:1;
+}
+#addWeek_content{
+    width:100%;
+    height:180px;
+}
+#addWeek_table{
+    width:100%;
+    height:100%;
+    border-collapse:collapse;
+}
+#addWeek_table tr td{
+    border:1.5px solid #E5E5E5;
+    border-right: 0px none;
+}
+#addWeek_footer{
+    width:100%;
+    height:40px;
+    display:-webkit-flex;
+}
+#addWeek_footer div{
+    flex:1;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    color:#09B830;
+    font-size:25px;
+}
+#addWeek_footer div:nth-child(1){
+    border-right:1px solid #E5E5E5;
+}
+#week_1{
+    width:30%;
+    height:80%;
+    text-align:center;
+    color:#868686;
+    border:0px none;
+    border: none;
+    background-color: transparent;
+    padding: 0 1rem;
+    margin: 0;
+}
+#week_2{
+    width:30%;
+    height:80%;
+    text-align:center;
+    color:#868686;
+    border:0px none;
+    border: none;
+    background-color: transparent;
+    padding: 0 1rem;
+    margin: 0;
+}
+.float{
+    float: left;
+}
+#textSpan_1{
+    color:#868686;
+    line-height:30px;
+}
+#textSpan_2{
+    color:#868686;
+    line-height:30px;
+}
+@media screen and (max-width:320px){
+    #title input{
+        font-size:14px;
+    }
+    .ClassTable input{
+        font-size:14px;
+    }
+}

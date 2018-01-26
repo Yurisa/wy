@@ -1,0 +1,99 @@
+body {
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.container {
+	background-color: #e8e5e5;
+}
+.box {
+	display: box; 
+	display: -webkit-box;
+	display: flex;
+}
+.top {
+	height: 50px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFC107;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	
+}
+.case {
+	width: 33.3%;
+	height: 50px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.hold {
+	height: 50px;
+	width: 100%;
+}
+.nowweek {
+	height: 50px;
+	border: none;
+	background-color: transparent;
+}
+select {
+	color: #fff;
+}
+#addIcon {
+	height: 30px;
+	width: 30px;
+	float: right;
+}
+.theTableArea {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	text-align: center;
+}
+.t_n {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.t_n span {
+	position: fixed;
+	height: 50px;
+	width: 13%;
+	border: none;
+	border-bottom: 1px solid grey;
+	background-color: #fff;
+	
+}
+.t_i {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.t_i_h {
+	background-color: rgba(253, 253, 253, 0.42);
+}
+.ee {
+	position: fixed; 
+	border-bottom: 1px solid grey;
+	background-color: #fff;
+}
+.cc {
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	background-image: url("../images/Course-bg.jpg");
+	background-size: 400px 1000px;
+}
+#content td {
+	color: #fff;
+}
+.dd td{
+	border-bottom: 1px solid grey;
+	background-color: #fff;
+}
+td {
+	width: 50px;
+	height: 50px;
+}
+#row13 {
+	height: 0px;
+}

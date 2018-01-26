@@ -1,0 +1,27 @@
+.container {
+	background-color: #e8e5e5;
+}
+.studentTable{
+	background-color: white;
+}
+.label{
+	text-align: left;
+	color: gray;
+}
+.bottom{
+	height: 60px;
+	background-color: white;
+	margin-top: 15px;
+}
+#wechat{
+	width: 55px;
+	height: 55px;
+}
+.bottom font{
+	font-weight: bold;
+}
+img {
+	margin-left: 0px;
+	width: 25px;
+	height: 25px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	 <link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/weui.min.css">
+	 <link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/weui.css">
+	 <link rel="stylesheet" type="text/css" href="__PUBLIC__/weixin/css/style-top.css">
+	<title>微语</title>
+</head>
+<body ontouchstart>
+	<div class="container">
+		<div class="top">
+			<div class="left"><a href=""><img src="__PUBLIC__/weixin/images/back.png" id="backIcon" onclick="goback()"></a></div> <!--返回按钮-->
+			<div class="title">课堂同学</div>
+			<div class="right"></div>			
+		</div>
+		<div class="hold"></div>
+		<volist name="studentlist" id="value">
+		<div class="weui-cells">
+		    <a href="?c=Wxcourse&a=coursestudentInfo&s_id={$value.s_id}" class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">
+		            <p>{$value.s_name}</p>
+		            <p>15级&nbsp;&nbsp;&nbsp;&nbsp;{$value.s_department}</p>
+		        </div>
+		        <div class="weui-cell__ft"></div>
+		    </a>
+		</div>
+		</volist>
+		<div class="weui-panel__ft">
+		    <a href="#" class="weui-cell weui-cell_access weui-cell_link">
+		        <div class="weui-cell__bd">查看更多</div>
+		        <span class="weui-cell__ft"></span>
+		    </a>
+		</div>
+	</div>
+   <script type="text/javascript">
+		function goback(){
+			history.go(-1);
+		}
+   </script>
+</body>
+</html>

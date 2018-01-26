@@ -1,0 +1,42 @@
+.msg-item{
+    width: 100%;
+    height:30px;
+    font-size:12px;
+    line-height:30px;
+    background: #fff;
+    padding:0 10px;
+    border-bottom:1px solid #ddd;
+}
+
+.icon-ra{
+    width: 6px;
+    height: 6px;
+    background: red;
+    display: block;
+    float: left;
+    margin-top:11px;
+    margin-right:5px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+.bg-none{
+    background: none;
+}
+
+.wid-60{
+    width:55%;
+}
+
+.ellipsis {
+
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-gray{
+    color: #aaa;
+}

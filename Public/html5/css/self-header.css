@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+body{ background-color:#f8f8f8;color:#5c5c5c; font-family:'΢���ź�'; font-family:'Microsoft YaHei'}
+a{ color:#5c5c5c}
+a:visited{ color:#5c5c5c; }
+a:hover{  color:#5c5c5c}
+
+
+/*ͷ��*/
+.header{ 
+	width:100%;
+    position: relative;
+	}
+/*�绰ͼ��*/
+.call-img{
+	width:20px;
+	height:20px; 
+	background:url(../images/icon/self-call.png) no-repeat; 
+	background-size:contain;
+	position: absolute;
+  	top: 50%;
+  	left: 49%;
+  	transform: translate(-50%, -50%);
+	}
+/*�绰ͼ��ı���*/
+.call{
+	position:relative;
+	width:35px;
+	height:35px;
+	background-color:#546380;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	filter:alpha(opacity:90);
+	opacity:0.9;
+	margin-top:-42%;
+	float:right;
+	margin-right:4%;
+}
+
+/*ͷ��*/
+.touxiang{
+    width:80px;
+    height:110px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-top:-45px;
+	}
+/*ͷ������Ч��*/
+.border{ 
+	position: absolute;
+  	top: 0;
+  	left: 0;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	width:80px;
+	height:80px;
+	border:5px solid #9b9793;
+	z-index:101;
+	filter:alpha(opacity:40);
+	opacity:0.4;
+	}
+/*ͷ��*/
+.touxiang-img{
+	width:80px;
+	height:80px;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+	z-index:100;
+	}
+.touxiang img{
+	width:80px;
+	height:80px;
+}
+
+.tx-name{
+    padding-top:80px;
+    line-height:25px;
+    font-size:12px;
+    width:80px;
+    text-align: center;
+    color: #666;
+
+}
+
+.sel-msg{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top: -35px;
+	margin-left: -15px;
+	color:#fff;
+	
+	}

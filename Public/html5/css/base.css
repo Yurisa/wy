@@ -1,0 +1,427 @@
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-color: #aeaeae;
+}
+
+a {
+    color: #3d4145;
+}
+
+/* 首页图片 */
+.tab-img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.tab-txt-nor {
+    color: #999999;
+}
+
+.tab-txt-sel {
+    color: #df5f14;
+}
+
+.font-txt-nor {
+    color: #6e6e6e;
+}
+
+.font-txt-black {
+    color: #333333;
+}
+
+.margin-top-zero {
+    margin-top: 0;
+}
+
+.margin-top-1rem {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.margin-top-2rem {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 0.5rem;
+}
+
+.margin-left-1rem {
+    margin-left: 1rem;
+}
+
+.margin-all-zero {
+    margin: 0;
+    padding: 0;
+}
+
+.margin-top-3rem {
+    margin-top: 3rem;
+}
+
+.padding-all-zero {
+    padding: 0;
+}
+
+.text-color-gray {
+    color: #c4c4c4;
+}
+
+.color-bg-white {
+    background-color: #fff;
+}
+
+.color-bg-gray {
+    background-color: #eee;
+}
+
+.color-bg-gray2 {
+    background-color: #f9f9f9;
+}
+
+.div-gray-line {
+    background-color: #aeaeae;
+    width: 100%;
+    height: 0.5px;
+}
+
+.blue {
+    color: blue;
+}
+
+.div_submit_bottom {
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+}
+
+.margin-bottom-3rem {
+    margin-bottom: 3rem;
+}
+
+.margin-bottom-4rem {
+    margin-bottom: 4rem;
+}
+
+.btn-submit {
+    border: #aeaeae;
+    border-radius: 5px;
+    background-color: #ffad00;
+    width: 90%;
+    margin: 0.5rem auto;
+    height: 2rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+}
+
+.btn-submit:active {
+    color: #FFFFFF;
+    background-color: #ffbd00;
+}
+
+.border-b-gray {
+    border-bottom: 0.05rem solid #eee;
+}
+
+.border-b-gray2 {
+    border-bottom: 0.05rem solid #aaa;
+}
+
+.list-block .item-text2 {
+    font-size: .75rem;
+    color: #5f646e;
+    line-height: 1.05rem;
+    position: relative;
+    overflow: hidden;
+    height: 1.05rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.icon-dingwei {
+    display: inline-block;
+    width: .6rem;
+    height: .8rem;
+    margin-top: .1rem;
+    margin-right: .2rem;
+}
+
+.icon-order {
+    display: block;
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin-top: .15rem;
+    margin-right: .2rem;
+}
+
+.icon-x {
+    float: left;
+    width: .8rem;
+    height: .8rem;
+    margin-top: .7rem;
+}
+
+.list-block .item-inner:after {
+    background-color: #fff;
+}
+
+/*input样式*/
+.input-new-style {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 1.1rem .6rem;
+    font-size: .8rem;
+    text-indent: 1.2rem;
+    display: block;
+    border: .05rem solid #ddd;
+    border-radius: .3rem;
+    /*background: url("../images");*/
+}
+
+.button-new-style {
+    width: 100%;
+    height: 1rem;
+    line-height: .3rem;
+    text-align: center;
+    color: #fff;
+    padding: 1.1rem .6rem;
+    font-size: .8rem;
+    display: block;
+    border-radius: .3rem;
+    background: orange;
+}
+
+.margin-bottom-3 {
+    margin-bottom: .3rem;
+}
+
+.width-10 {
+    width: 10rem;
+}
+
+.fl {
+    float: left;
+}
+
+.bg-icon-yzm {
+    background: url(../images/yanzhengma.png) #fff no-repeat 0.6rem center;
+    background-size: .8rem;
+}
+
+.bg-icon-yqm {
+    background: url(../images/yqm.png) #fff no-repeat 0.6rem center;
+    background-size: .8rem;
+}
+
+
+.bg-icon-mobile {
+    background: url(../images/mobile-phone.png) #fff no-repeat 0.6rem center;
+    background-size: .8rem;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.width-height-8{
+    width: .8rem;
+    height: .8rem;
+    margin-right:.3rem;
+}
+
+.red{
+    color:red;
+}
+
+.icon-style1 {
+    width: .9rem;
+    height: .9rem;
+    margin-right: .5rem;
+}
+
+.icon-msg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.list-block .justify-content-start {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.list-block .padding-all-zero {
+    padding: 0;
+}
+
+.flex1 {
+    flex: 1;
+    font-size: .75rem;
+}
+
+.font-size-085rem{
+    font-size:.85rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.padding-lr-08rem {
+    padding: 0 .8rem;
+}
+
+.font-size-8 {
+    font-size: .8rem;
+}
+
+.padding-top-1rem {
+    padding-top: 1rem;
+}
+
+.font-size-8 {
+    font-size: .8rem;
+}
+
+.font-size-7 {
+    font-size: .75rem;
+}
+
+.bar .font-size-8{
+    font-size: .8rem;
+}
+
+.font-size-5{
+    font-size:.5rem;
+}
+
+.color-font-gray {
+    color: #aaa;
+}
+
+.padding-06rem{
+    padding:0.6rem;
+}
+
+.list-block .margin-padding-style {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+    padding-right: .5rem;
+}
+
+.padding-justy{
+    padding:.6rem;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap
+}
+
+.icon-ra {
+    width: .3rem;
+    height: .3rem;
+    background: red;
+    margin-right: .3rem;
+    border-radius: .15rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pic-table-cell{
+    width:8.5rem;
+    background: #fff;
+    border:.05rem solid #ddd;
+    margin-bottom:.6rem;
+}
+
+.pic-table-cell .pic-table-pic{
+    width: 100%;
+    height:6.2rem;
+}
+
+.pic-table-text{
+    width:100%;
+    line-height:1.2rem;
+    height:1.2rem;
+    font-size:.8rem;
+    padding: 0 .3rem;
+    margin:0;
+}
+
+.pic-table-text2{
+    width:100%;
+    line-height:1.4rem;
+    height:1.4rem;
+    font-size:.65rem;
+    color:#aaa;
+    padding: 0 .3rem;
+    margin:0;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.pic-table-text2 img{
+    height: .8rem;
+    margin-right:.2rem;
+}
+
+/*.bar-nav{*/
+    /*display: -webkit-flex;*/
+/*}*/
+
+.bar-nav .title{
+    width: 5rem;
+    left:50%;
+    margin-left:-2.5rem;
+
+}
+
+/*.bar-nav .pull-left{*/
+    /*align-self:flex-start;*/
+/*}*/
+
+/*.bar-nav .pull-right{*/
+    /*align-self:flex-end;*/
+/*}*/
+
+/*五星评价实现*/
+.f-star{
+
+}
+
+.f-star img{
+    width: 1.2rem;
+}
+
+.v-center-box{
+    display: flex;
+    align-items: center;
+}
+
+.text-area{
+    width:100%;
+    height:5.5rem;
+    padding:0.3rem;
+    font-size:.75rem;
+    color: #666;
+    border:0.05rem solid #ddd;
+}

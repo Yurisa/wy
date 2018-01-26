@@ -1,0 +1,27 @@
+
+.f4{ 
+	height:40px; 
+	line-height:40px;
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+	}
+/*»î¶¯Í¼±ê*/
+.icon2{
+	background:url(../images/icon/book-ticket-icon4.png) no-repeat; 
+	height:16px; 
+	width:30px;
+	background-size:contain; 
+	float:left;
+	margin-top:13px;
+	margin-right:5px;
+	}
+.intro-title{ 
+	font-size:115%;
+	color:#000; 
+	margin-top:15px; 
+	margin-bottom:5px;
+	}
+.bd{ 
+	border-bottom:1px solid #ddd; 
+	background-color:#fff;
+	}
